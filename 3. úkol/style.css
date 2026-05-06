@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    margin-bottom: 50px;
+}
+.header-container{
+    display: flex;
+}
+.header-left img{
+    width: 15%;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+nav{
+    display: flex;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.header-button{
+    text-decoration: none;
+    color: white;
+    background-color: #7F45F5FF;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    align-content: center;
+}
+
+
+
+.hero-section{
+    margin-top: 80px;
+}
+.hero-container{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.hero-container img{
+    margin-left: 10%;
+    width: 70%;
+}
+.hero-shape{
+    width: 35%;
+    height: 100%;
+    position: absolute;
+    background-color: #7F45F5FF;
+    top: -7%;
+    left: 2%;
+    z-index: -1;
+    border-top-left-radius: 15px;
+}
+.hero-content{
+    margin-right: 5%;
+}
+.hero-content h1{
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+}
+.primary-button{
+    background-color: #7F45F5FF;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.reasons-section{
+    margin-top: 5%;
+}
+.section-title{
+    text-align: center;
+    align-content: center;
+    font-size: 45px;
+    font-family: "Roboto", sans-serif;
+}
+.reasons-grid{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.reason-card{
+    align-items: center;
+    text-align: center;
+    width: 20%;
+}
+.reason-card h3{
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+}
+.reason-text{
+    text-align: center;
+    align-items: center;
+    width: 70%;
+    font-size : 16px;
+}
