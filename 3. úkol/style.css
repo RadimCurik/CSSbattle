@@ -90,6 +90,9 @@ nav a{
     font-family: Inter, sans-serif;
     width: 73%;
 }
+.hero-text a{
+    color: black;
+}
 .primary-button{
     background-color: #7F45F5FF;
     padding: 15px;
